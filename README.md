@@ -1,22 +1,21 @@
-# DIO - Trilha .NET - Programação orientada a objetos
+# DIO - .NET Track - Object-Oriented Programming
 www.dio.me
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
+## Project Challenge
+For this challenge, you will need to apply the knowledge you've gained from the object-oriented programming module in the .NET track at DIO.
 
-## Contexto
-Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+## Context
+"You are responsible for modeling a system that works with mobile phones. For this purpose, you have been asked to abstract a mobile phone and provide ways for different brands and models to have their own behavior, enabling greater code reuse and using object-oriented programming."
 
-## Proposta
-Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-Você deve criar as suas classes de acordo com o diagrama abaixo:
+## Proposal
+"You need to create a .NET console-based system, mapping an abstract class and specific classes for two types of mobile phones: Nokia and iPhone. You should create your classes according to the diagram below."
 
-![Diagrama classes](Imagens/diagrama.png)
+![Class diagram](Imagens/diagrama.png)
 
-## Regras e validações
-1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
-2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
-3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
+## Rules and validations
+1. The class **Smartphone** must be abstract, preventing instantiation and serving only as a template.
+2. The classes **Nokia** and Iphone must be child classes of Smartphone.
+3. The **InstallApplication** method should be overridden in the Nokia and iPhone classes since they both have different ways of installing an application.
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## Solution
+The code is halfway done, and you should continue following the rules described above so that in the end, we have a functional program. Look for the commented word "TODO" in the code, then implement it according to the rules above.
